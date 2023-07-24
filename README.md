@@ -10,7 +10,7 @@
 1. First an authentication check will be done
 2. A specific username (bilkentstu) and password (cs421f2022) will be looked after by the server
 3. Authenticated clients can then edit the text by using several commands that are described below
-   1. USER <username>
+   1. "USER <username>"
    2. PASS <password>
    3. WRTE <version><Space><linenumber><Space><text>
    4. APND <version><Space><text>
