@@ -4,8 +4,8 @@
 
 - Collaborative Text editor enables multiple clients to edit a text file simultaneously
 - Text Editor uses a custom application-level protocol which is built on top of TCP
-- The processor performs several functions depending on the 16- bit instructions on 8-bit data
-- The projet is implemented with System Verilog and tested on Vivado Basys3 FPGA board
+- Python is used as the programming language
+- Socket module is used for socket programming
 
 ## Program Lifecycle
 
@@ -31,13 +31,13 @@
 
 ### Running the Server Program
 
-`python Server.py \<Addr\> \<ControlPort\>`
+`python Server.py <Addr> <ControlPort>`
 - \<Addr\>: The IP address of the server.
 - \<ControlPort\> The control port to which the server will bind.
 
 ### Running the Client Program
 
-`python3 TextEditor.py \<Addr\> \<ControlPort\>`
+`python3 TextEditor.py <Addr> <ControlPort>`
 - \<Addr\>: The IP address of the server.
 - \<ControlPort\> The control port to which the server will bind.
 
